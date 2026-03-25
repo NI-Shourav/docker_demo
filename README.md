@@ -68,6 +68,8 @@ Navigate to **Settings** > **Secrets and variables** > **Actions** > **New repos
 | `AWS_USER` | The default SSH user (e.g., `ubuntu`) |
 | `DOCKER_USERNAME` | Your Docker Hub Username |
 | `DOCKER_PASSWORD` | Your Docker Hub Password *(or PAT)* |
+| `MYSQL_ROOT_PASSWORD` | Root password for your MySQL container (e.g., `root`) |
+| `MYSQL_DATABASE` | Name of your MySQL database (e.g., `attendance_db`) |
 
 ### Step 3: ⚙️ Setup GitHub Workflow
 
