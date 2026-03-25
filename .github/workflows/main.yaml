@@ -62,8 +62,8 @@ jobs:
             docker run -d \
               --name mysql-db \
               --network app_network \
-              -e MYSQL_ROOT_PASSWORD=root \
-              -e MYSQL_DATABASE=attendance_db \
+              -e MYSQL_ROOT_PASSWORD=${{ secrets.MYSQL_ROOT_PASSWORD }} \
+              -e MYSQL_DATABASE=${{ secrets.MYSQL_DATABASE }} \
               -p 3306:3306 \
               mysql:latest
 
